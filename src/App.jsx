@@ -380,6 +380,7 @@ function App() {
                {...register('name', {
                 required: "姓名欄位必填"})}
               id="name"
+              type="text"
               className={`form-control ${errors.name && 'is-invalid'}`}
               placeholder="請輸入姓名"
             />
